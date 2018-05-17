@@ -32,7 +32,7 @@ probably wish to put it in a `dev` or `test` alias. For example:
 ```clojure
 :aliases {:dev {:extra-paths ["test"]
                 :extra-deps {com.cognitect/test-runner {:git/url "git@github.com:cognitect-labs/test-runner"
-                                                        :sha "e3e4ce3d7e29349eeff44afd654bc2de6d5f3ae5"}}}}
+                                                        :sha "5fb4fc46ad0bf2e0ce45eba5b9117a2e89166479"}}}}
 ```
 
 Then, invoke Clojure via the command line, passing
